@@ -1,0 +1,26 @@
+[
+{
+	"event": "Туртропа ММФ 2017",
+	"date": "iso + date forme: 2017-09-16T12:00Z+3",
+	"photos": {
+		"photo1":"https://pp.userapi.com/c841633/v841633374/1e1ec/pqXy39jAR3A.jpg",
+		"photo2":"https://pp.userapi.com/c841633/v841633374/1e2dc/D8EjuiMXkjE.jpg"
+	}
+},
+{
+	"event": "Капустник ММФ 2017",
+	"date": "iso + date forme: 2017-10-26T18:00Z+3",
+	"photos": {
+		"photo1":"https://pp.userapi.com/c638520/v638520483/5e3a8/mzwl98uX_WA.jpg",
+		"photo2":"https://pp.userapi.com/c638520/v638520483/5e574/HpPBfGp_nNA.jpg"
+	}
+},
+{
+	"event": "Капустник БГУ 2017",
+	"date": "iso + date forme: 2017-11-16T19:00Z+3",
+	"photos": {
+		"photo1":"https://pp.userapi.com/c834102/v834102508/3c2ba/N_8SzZIAB_A.jpg",
+		"photo2":"https://pp.userapi.com/c834102/v834102123/3d624/EH5AI8hCgk4.jpg"
+	}	
+}
+]

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Оформление заказа</title>
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/bootstrap-grid.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+  <header>
+    <div class="flex-container">  
+
+      <div class="logo">
+        <div class="img-wrap">
+          <img src="img/logo.png" alt="">
+        </div>
+      </div>
+
+      <ul class="main-menu">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="photos.html">Портфолио</a></li>
+        <li>
+          <a href="services.html">Прайс</a>
+         <!-- <ul class="submenu">
+            <li><a href="costumes.html">Costumes</a></li>
+            <li><a href="scenaries.html">Scenaries</a></li>
+            <li><a href="https://ru.wikipedia.org/wiki/HTTP_404">Non-link</a></li>
+            <li><a href="https://ru.wikipedia.org/wiki/HTTP_404">Non-link</a></li>
+          </ul> -->
+        </li>
+        <li><a href="form.html">Заказать</a></li>            
+      </ul>
+
+    </div>
+  </header>
+
+
+
+  <section class="form">
+    <h1>Оформление заказа</h1>
+    <form action="#">
+      <div class="text">
+        <label for="firstName">Имя</label>
+        <input id="firstName" type="text" placeholder="Ivan">
+      </div>
+      <div class="text">
+        <label for="lastName">Фамилия</label>    
+        <input type="text" id="lastName" placeholder="Ivanov">
+      </div>
+      <div class="text">
+        <label for="email">Email</label>    
+        <input type="email" id="email" placeholder="yourmail@gmail.com">
+      </div>
+      <div class="text">
+          <label for="password">Пароль</label>    
+          <input type="password" id="password" placeholder="12345678">
+        </div>
+      <div class="comment">В каком мероприятии вы участвуете?</div>
+      <div class="radios">
+        <input id="Event" type="text" placeholder="Например, туртропа">
+        </div>
+
+
+      <div class="comment">Что вы хотите заказать?</div>
+      <div class="checkboxes">
+        <div class="checkbox">
+          <input type="checkbox" id="scenary" name="service" value="scenary">
+          <label for="scenary">Сценарий</label>
+        </div>
+
+        <div class="checkbox">
+          <input type="checkbox" id="costumes" name="service" value="costumes">
+          <label for="costumes">Костюмы</label>
+        </div>
+
+        <div class="checkbox">
+          <input type="checkbox" id="decorations" name="service" value="decorations">
+          <label for="decorations">Декорации</label>
+        </div>
+      </div>
+      <div class="radios">
+        <div class="comment">Нужна ли доставка?</div>
+        <div class="radio">
+            <input type="radio" value="да" name="delivery">
+            <label for="да">Да</label> 
+          </div>
+          <div class="radio">
+              <input type="radio" value="нет" name="delivery">
+              <label for="нет">Нет</label> 
+              </div>
+      </div>
+      <div class="comment">Ваши пожелания:</div>
+      <textarea name="review"></textarea>
+      <button>Заказать</button>
+    </form>
+  </section>
+
+  <footer>
+    <div class="flex-container">    
+      <div class="time">
+        Мы работаем с 10.00 по 18.00
+        <br>
+        7 дней в неделю
+        <br>
+        пр-т.Независимости, 4
+        <br>
+        +375293333333
+      </div>
+      <ul class="menu">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="photos.html">Портфолио</a></li>
+        <li><a href="services.html">Прайс</a></li>
+        <li><a href="form.html">Заказать</a></li>
+      </ul>
+      <ul class="socials">
+        <li><a href="https://github.com/rolling-scopes-school"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="https://github.com/rolling-scopes-school"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://github.com/rolling-scopes-school"><i class="fa fa-vk"></i></a></li>
+        <li><a href="https://github.com/rolling-scopes-school"><i class="fa fa-github"></i></a></li>
+      </ul>
+    </div>
+
+    <div class="copyright">@2017 EventsGuru, Минск</div>
+    
+  </footer>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/typed.min.js"></script>  
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+
+[
+    {
+        "name":"post1",
+        "id":"457368x8",
+        "time":"iso + date forme: 2017-09-08T10:20Z+3",
+        "author": "Peter",
+        "text": "ckjdjsjcsdjvks"
+    },
+    {
+        "name":"post2",
+        "id":"974876o5",
+        "time":"iso + date forme: 2017-09-10T17:25Z+3",
+        "author": "Max",
+        "text": "hjkdfhg kdjf sjcsdjvks"
+    },
+    {
+        "name":"post3",
+        "id":"8879483f5",
+        "time":"iso + date forme: 2017-09-23T08:15Z+3",
+        "author": "Nick",
+        "text": "hhdgkfh jkrhtg gb sdjvks"
+    }
+]
+

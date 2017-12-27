@@ -1,0 +1,47 @@
+[
+	{	"costumer":"Vlad",
+		"price": "800",
+		"id":"452124h",
+		"services": 
+			[
+				{
+					"name" : "costumes",
+					"size":"XL",
+					"price": "500"
+				},
+				{
+					"name":"text",
+					"price":"300",
+					"topic":"Cartoons",
+					"duration": "2 minutes"
+				}
+			],
+
+		"delivery":
+		{	
+			"city":"Minsk",
+			"delivered": "true",
+			"time":"iso + date forme: 2017-09-08T10:20Z+3" 
+		}
+	},
+	{	
+		"costumer":"Elena",
+		"price": "300",
+		"id":"57642124h",
+		"services": 
+		{
+			"name":"text",
+			"price":"300",
+			"topic":"Films",
+			"duration": "3 minutes"
+		},
+
+		"delivery":
+		{	
+			"city":"Brest",
+			"delivered": "true",
+			"time":"iso + date forme: 2017-08-17T15:20Z+3" 
+		}
+	}
+]
+	
