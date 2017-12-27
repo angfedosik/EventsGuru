@@ -21,11 +21,13 @@
         <tr><td>Время</td><td><xsl:value-of select="@date"/></td>
         </tr>
     </xsl:template>
+     <table border="1">
     <xsl:template match="event">
-            <table border="1">
+           
                 <xsl:apply-templates select="//event[@name=current()/@name]" mode="local"/>
                 <p/>
-            </table>
 
     </xsl:template>
+            </table>
+    
 </xsl:stylesheet>
