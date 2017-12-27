@@ -1,0 +1,6 @@
+<events>
+    <event name="New Year Party" date="iso + date forme: 2017-12-31T21:00Z+3" place="Лицей БГУ"/>
+    <event name="Valentine's Day" date="iso + date forme: 2018-02-14T17:00Z+3" place="Холл 4-го этажа"/>
+    <event name="Mister of MMF" date="iso + date forme: 2017-12-31T21:00Z+3" place="Лицей БГУ"/>
+    <event name="MMF Days" date="iso + date forme: 2018-03-14T11:00Z+3" place="Внутренний двор БГУ"/>
+</events>
